@@ -1,0 +1,2184 @@
+[ 2016-11-12T00:04:06+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T00:04:09+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/getConfig?url=http:%2F%2Fwechat.hnust.cn%2Fsign-f2f%2Fwx%3Fv%3D160531
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T00:04:10+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/signLaunch
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 26 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 32 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sign_launch` [ RunTime:0.0008s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 170 行.
+NOTIC: [8] Undefined variable: signname /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 118 行.
+NOTIC: [8] Undefined variable: flag /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 120 行.
+
+[ 2016-11-12T00:04:12+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getSignList?signid=1120&signname=%E4%BD%95%E6%96%B0%E5%A0%82_1478880250
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T00:04:17+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T00:04:18+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getSignHistory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T00:04:24+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000140s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T00:39:18+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T00:40:14+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T00:40:17+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getLaunchHistory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T00:40:21+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getSignList?signid=1046&signname=%E9%99%88%E5%96%84%E6%A5%9A_18569289165
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T00:40:26+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getLaunchHistory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T00:40:27+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0002s ]
+
+[ 2016-11-12T00:40:28+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getSignHistory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T00:40:30+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T07:06:38+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0002s ]
+
+[ 2016-11-12T07:19:38+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0002s ]
+
+[ 2016-11-12T07:19:45+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/getConfig?url=http:%2F%2Fwechat.hnust.cn%2Fsign-f2f%2Fwx%3Fv%3D160531
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+
+[ 2016-11-12T07:19:46+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/signLaunch
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 26 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 32 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sign_launch` [ RunTime:0.0013s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 170 行.
+NOTIC: [8] Undefined variable: signname /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 118 行.
+NOTIC: [8] Undefined variable: flag /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 120 行.
+
+[ 2016-11-12T07:19:51+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getSignList?signid=1121&signname=%E5%A7%9A%E5%AD%A6%E4%B8%9C_1478906386
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+
+[ 2016-11-12T07:20:03+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T07:20:06+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getSignHistory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T07:20:08+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getSignHistory?$$hashKey=01K&incode=2000&isseen=1&recordId=-1&signid=1121&signname=%E5%A7%9A%E5%AD%A6%E4%B8%9C_1478906386&time=2016-11-12+07:19:46&uname=%E5%A7%9A%E5%AD%A6%E4%B8%9C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+
+[ 2016-11-12T07:20:09+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T07:20:15+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T07:21:11+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T07:27:31+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T07:40:26+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T09:08:16+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T09:34:32+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T09:47:52+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0002s ]
+
+[ 2016-11-12T09:47:55+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0002s ]
+
+[ 2016-11-12T10:08:58+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T10:09:01+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/getConfig?url=http:%2F%2Fwechat.hnust.cn%2Fsign-f2f%2Fwx%3Fv%3D160531
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T10:09:03+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/signLaunch
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 26 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 32 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sign_launch` [ RunTime:0.0006s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 170 行.
+NOTIC: [8] Undefined variable: signname /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 118 行.
+NOTIC: [8] Undefined variable: flag /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 120 行.
+
+[ 2016-11-12T10:09:05+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getSignList?signid=1122&signname=%E4%BD%95%E6%96%B0%E5%A0%82_1478916543
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T10:09:10+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T10:09:12+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getSignHistory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T10:09:16+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T10:19:41+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T11:03:49+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T11:04:21+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T11:05:47+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0002s ]
+
+[ 2016-11-12T12:22:10+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T12:37:01+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T12:55:41+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T13:13:33+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T13:13:37+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getTeachingSpace
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sign_launch_temp` [ RunTime:0.0015s ]
+SQL: SELECT `id` FROM `sign_launch_temp`  [ RunTime:0.0012s ]
+
+[ 2016-11-12T13:18:31+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0002s ]
+
+[ 2016-11-12T13:18:37+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getSignSpace
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T13:19:22+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0002s ]
+
+[ 2016-11-12T13:19:31+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0002s ]
+
+[ 2016-11-12T13:39:15+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T13:44:17+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0002s ]
+
+[ 2016-11-12T13:44:20+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getSignHistory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0003s ]
+
+[ 2016-11-12T13:44:24+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T13:58:07+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T14:37:39+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+
+[ 2016-11-12T15:04:00+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T15:04:02+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T15:27:21+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T16:16:41+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T16:17:47+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T16:19:14+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getTeachingSpace
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000176s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sign_launch_temp` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `sign_launch_temp`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T16:19:39+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getAnswerHistory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+
+[ 2016-11-12T16:29:45+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T16:30:04+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T16:54:56+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T16:55:03+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T16:55:04+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/getConfig?url=http:%2F%2Fwechat.hnust.cn%2Fsign-f2f%2Fwx%3Fv%3D160531
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+
+[ 2016-11-12T16:55:06+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/getQRCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+
+[ 2016-11-12T16:55:32+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000175s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T16:56:23+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T16:56:37+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T16:56:40+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/getConfig?url=http:%2F%2Fwechat.hnust.cn%2Fsign-f2f%2Fwx%3Fv%3D160531
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+
+[ 2016-11-12T16:56:42+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/getQRCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+
+[ 2016-11-12T16:57:35+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0002s ]
+
+[ 2016-11-12T16:58:10+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T16:58:12+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/getConfig?url=http:%2F%2Fwechat.hnust.cn%2Fsign-f2f%2Fwx%3Fv%3D160531
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T16:58:14+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/getQRCode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T16:58:24+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/scan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 26 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 32 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 35 行.
+
+[ 2016-11-12T17:04:30+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+
+[ 2016-11-12T17:08:58+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T17:09:08+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getTeachingSpace
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sign_launch_temp` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `sign_launch_temp`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T17:09:24+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T17:09:28+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getSignHistory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+
+[ 2016-11-12T17:28:27+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T17:32:32+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T17:32:38+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/getConfig?url=http:%2F%2Fwechat.hnust.cn%2Fsign-f2f%2Fwx%3Fv%3D160531
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+
+[ 2016-11-12T17:32:39+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/signLaunch
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 26 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 32 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sign_launch` [ RunTime:0.0013s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 170 行.
+NOTIC: [8] Undefined variable: signname /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 118 行.
+NOTIC: [8] Undefined variable: flag /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 120 行.
+
+[ 2016-11-12T17:32:41+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T17:35:54+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T17:40:41+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T17:44:17+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T17:53:40+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T17:56:55+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T18:09:47+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T19:20:20+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T19:20:24+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/getConfig?url=http:%2F%2Fwechat.hnust.cn%2Fsign-f2f%2Fwx%3Fv%3D160531
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T19:20:26+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/signLaunch
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 26 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 32 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sign_launch` [ RunTime:0.0009s ]
+
+[ 2016-11-12T19:20:29+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/signLaunch
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 26 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 32 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sign_launch` [ RunTime:0.0008s ]
+
+[ 2016-11-12T19:20:34+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/signLaunch
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 26 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 32 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sign_launch` [ RunTime:0.0008s ]
+
+[ 2016-11-12T19:20:38+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T19:20:41+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/getConfig?url=http:%2F%2Fwechat.hnust.cn%2Fsign-f2f%2Fwx%3Fv%3D160531
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+
+[ 2016-11-12T19:20:42+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/signLaunch
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 26 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 32 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sign_launch` [ RunTime:0.0008s ]
+
+[ 2016-11-12T19:20:44+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/signLaunch
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 26 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 32 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sign_launch` [ RunTime:0.0007s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 170 行.
+NOTIC: [8] Undefined variable: signname /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 118 行.
+NOTIC: [8] Undefined variable: flag /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 120 行.
+
+[ 2016-11-12T19:20:47+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getSignList?signid=1124&signname=%E4%BD%95%E6%96%B0%E5%A0%82_1478949644
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T19:21:00+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T19:21:01+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getSignHistory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T19:21:16+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T19:21:55+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T19:22:01+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getSignHistory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+
+[ 2016-11-12T19:22:45+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T19:22:48+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/getConfig?url=http:%2F%2Fwechat.hnust.cn%2Fsign-f2f%2Fwx%3Fv%3D160531
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+
+[ 2016-11-12T19:22:49+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/signLaunch
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 26 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 32 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sign_launch` [ RunTime:0.0013s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 170 行.
+NOTIC: [8] Undefined variable: signname /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 118 行.
+NOTIC: [8] Undefined variable: flag /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 120 行.
+
+[ 2016-11-12T19:22:54+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T19:22:56+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T19:23:00+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T19:23:02+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/getConfig?url=http:%2F%2Fwechat.hnust.cn%2Fsign-f2f%2Fwx%3Fv%3D160531
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T19:23:03+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/signLaunch
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 26 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 32 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sign_launch` [ RunTime:0.0007s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 170 行.
+
+[ 2016-11-12T19:23:06+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T19:23:11+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/fetchSignInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sign_launch` [ RunTime:0.0012s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 149 行.
+
+[ 2016-11-12T19:23:14+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/fetchSignInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `sign_launch` [ RunTime:0.0007s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 149 行.
+
+[ 2016-11-12T19:23:14+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/startSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 26 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 32 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sign_record` [ RunTime:0.0007s ]
+
+[ 2016-11-12T19:23:17+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T19:23:19+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getSignHistory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+
+[ 2016-11-12T19:23:21+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T19:28:55+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T19:34:08+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T20:23:57+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T20:34:48+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T20:34:53+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T20:34:56+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/getConfig?url=http:%2F%2Fwechat.hnust.cn%2Fsign-f2f%2Fwx%3Fv%3D160531
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T20:34:57+08:00 ] 127.0.0.1 /sign-f2f/wx/studentApi/signLaunch
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 26 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 29 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 32 行.
+NOTIC: [8192] Function ereg() is deprecated /weixin/webdata/sign-f2f/Application/Wx/Model/MobelPhoneModel.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `sign_launch` [ RunTime:0.0007s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 170 行.
+NOTIC: [8] Undefined variable: signname /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 118 行.
+NOTIC: [8] Undefined variable: flag /weixin/webdata/sign-f2f/Application/Wx/Model/SignLaunchModel.class.php 第 120 行.
+
+[ 2016-11-12T20:35:09+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getSignList?signid=1126&signname=%E6%9D%8E%E5%BD%AA_1478954097
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+
+[ 2016-11-12T20:35:15+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getSignList?$$hashKey=01E&haveSign=yes&isInSpace=false&isSelf=true&num=16150****4&signid=1126&signname=%E6%9D%8E%E5%BD%AA_1478954097&time=20:34:57&username=%E6%9D%8E%E5%BD%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+
+[ 2016-11-12T20:56:39+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T20:56:45+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getSignSpace
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T20:56:47+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T20:56:48+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getTeachingSpace
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /weixin/webdata/sign-f2f/Application/Wx/Controller/AdminApiController.class.php 第 662 行.
+SQL: SHOW COLUMNS FROM `sign_launch_temp` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `sign_launch_temp`  [ RunTime:0.0004s ]
+
+[ 2016-11-12T20:57:01+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000117s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T20:57:03+08:00 ] 127.0.0.1 /sign-f2f/wx/adminApi/getTeachingSpace
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined offset: 0 /weixin/webdata/sign-f2f/Application/Wx/Controller/AdminApiController.class.php 第 662 行.
+SQL: SHOW COLUMNS FROM `sign_launch_temp` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `sign_launch_temp`  [ RunTime:0.0001s ]
+
+[ 2016-11-12T20:57:23+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T21:10:51+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T21:12:42+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+
+[ 2016-11-12T21:12:48+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+
+[ 2016-11-12T21:13:57+08:00 ] 127.0.0.1 /sign-f2f/wx/indexApi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `common` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `common` WHERE `power` = 0  [ RunTime:0.0001s ]
+

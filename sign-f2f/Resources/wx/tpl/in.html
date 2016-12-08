@@ -1,0 +1,54 @@
+<div ng-show="!success">
+  <div class="main navbar">
+    <a class="center">发起签到</a>
+    <a class="left" href="javascript:history.go(-1)">
+      <i class="angle left icon"></i> 返回
+    </a>
+    
+  </div>
+  <div class="signcode" ng-show="signinfo">
+        <p class="ui ignored info attached message" style="margin:0px auto; padding:8px;">
+          <span ng-bind="informtext || '这里是签到默认命名'"></span>
+        </p>
+        <div class="ui center">
+          <span ng-bind="code || '这里是签到码'"></span>
+        </div>
+	<button class="ui center huge green basic button"  ng-click="viewSign()">
+          <i class="loading map icon" ng-show="loading"></i>
+	  <input type="hidden" ng-model="signid">
+	  <input type="hidden" ng-model="dfilename">
+          <a style="color: #21ba45" ng-bind="'查看签到列表'" ng-href="#/signlist?signid={{signid}}&signname={{dfilename}}"></a>
+        </button>  
+  </div>
+  <div class="location well" ng-show="visible">
+    <p class="ui ignored info attached message" ng-show="error" style="margin:0px auto; padding:8px;">
+          <span ng-bind="errorinfo"></span>
+    </p>
+    <img class="ui centered medium circular image" src="Public/wx/img/logo.png">
+    <button class="ui center huge green basic button"  ng-click="getLocation()">
+      <i class="loading map icon" ng-show="loading"></i>
+      <span ng-bind="status || '发起签到'"></span>
+    </button>
+  </div>
+  <dl class="helper">
+    <dt>怎么签到</dt>
+    <dd>先打开WIFI（只需要打开，连不连接都可以），然后点击上方签到按钮</dd>
+    <dt>定位失败怎么办</dt>
+    <dd>确保WIFI已经打开，且能够搜索到周围的WIFI信号，最好同时打开GPS</dd>
+    <dt>有问题、意见、建议</dt>
+    <dd>如果在使用过程中有什么问题、意见或建议，并且在<a href="#/helper">使用帮助</a>中也无法找到想要的结果时，可以通过<a href="http://wechat.hnust.cn/board/#?wechatName=hnust">留言反馈</a>联系我们，留言时请务必说明具体情况（如签到问题请说明当前时间、地点、签到方式等等具体问题描述）</dd>
+    <a class="ui info fluid button" href="#/helper">查看更多帮助</a>
+  </dl>
+</div>
+<div class="ui location success container" ng-show="success">
+  <div class="icon area">
+    <i class="checkmark icon"></i>
+  </div>
+  <div class="text area">
+    <h2>签到成功</h2>
+    <p style="color:#e64340" ng-bind="prompt"></p>
+  </div>
+  <a class="fluid ui green button" href="#/history">签到历史</a>
+  <a class="fluid ui button" href="#/qrcode1" ng-if="type == 0">辅助同学签到</a>
+  <button class="fluid ui button" ng-click="closeWindow()" ng-if="type != 0">关闭页面</button>
+</div>

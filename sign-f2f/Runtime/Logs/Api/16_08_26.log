@@ -1,0 +1,115 @@
+[ 2016-08-26T08:01:25+08:00 ] 127.0.0.1 /sign-f2f/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+
+[ 2016-08-26T08:03:04+08:00 ] 127.0.0.1 /sign-f2f/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+
+[ 2016-08-26T08:03:59+08:00 ] 127.0.0.1 /sign-f2f/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+
+[ 2016-08-26T08:04:11+08:00 ] 127.0.0.1 /sign-f2f/Api
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0008s ]
+NOTIC: [2] Missing argument 1 for Api\Model\AuthModel::validAuth(), called in /weixin/webdata/sign-f2f/Application/Api/Controller/AuthController.class.php on line 28 and defined /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 2 for Api\Model\AuthModel::validAuth(), called in /weixin/webdata/sign-f2f/Application/Api/Controller/AuthController.class.php on line 28 and defined /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Api\Model\AuthModel::validAuth(), called in /weixin/webdata/sign-f2f/Application/Api/Controller/AuthController.class.php on line 28 and defined /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: appid /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 11 行.
+SQL: SELECT * FROM `auth` WHERE `appid` = null LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: random /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: str /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+ERR: 非法操作:index
+
+[ 2016-08-26T08:04:55+08:00 ] 127.0.0.1 /sign-f2f/Api/launchSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000168s ]
+ERR: 无法加载控制器:LaunchSign
+
+[ 2016-08-26T08:05:11+08:00 ] 127.0.0.1 /sign-f2f/Api/Index/launchSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0011s ]
+NOTIC: [2] Missing argument 1 for Api\Model\AuthModel::validAuth(), called in /weixin/webdata/sign-f2f/Application/Api/Controller/AuthController.class.php on line 28 and defined /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 2 for Api\Model\AuthModel::validAuth(), called in /weixin/webdata/sign-f2f/Application/Api/Controller/AuthController.class.php on line 28 and defined /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Api\Model\AuthModel::validAuth(), called in /weixin/webdata/sign-f2f/Application/Api/Controller/AuthController.class.php on line 28 and defined /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: appid /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 11 行.
+SQL: SELECT * FROM `auth` WHERE `appid` = null LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: random /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: str /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0002s ]
+ERR: 参数错误或者未定义:signname
+
+[ 2016-08-26T08:06:10+08:00 ] 127.0.0.1 /sign-f2f/Api/Index/launchSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: persistent /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 41 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 43 行.
+NOTIC: [8] Undefined index: timeout /weixin/webdata/sign-f2f/ThinkPHP/Library/Think/Cache/Driver/Redis.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0006s ]
+NOTIC: [2] Missing argument 1 for Api\Model\AuthModel::validAuth(), called in /weixin/webdata/sign-f2f/Application/Api/Controller/AuthController.class.php on line 28 and defined /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 2 for Api\Model\AuthModel::validAuth(), called in /weixin/webdata/sign-f2f/Application/Api/Controller/AuthController.class.php on line 28 and defined /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Api\Model\AuthModel::validAuth(), called in /weixin/webdata/sign-f2f/Application/Api/Controller/AuthController.class.php on line 28 and defined /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: appid /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 11 行.
+SQL: SELECT * FROM `auth` WHERE `appid` = null LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: random /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: str /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 15 行.
+SQL: SHOW COLUMNS FROM `ini` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+NOTIC: [2] Missing argument 1 for Api\Model\AuthModel::validAuth(), called in /weixin/webdata/sign-f2f/Application/Api/Controller/AuthController.class.php on line 28 and defined /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 2 for Api\Model\AuthModel::validAuth(), called in /weixin/webdata/sign-f2f/Application/Api/Controller/AuthController.class.php on line 28 and defined /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 8 行.
+NOTIC: [2] Missing argument 3 for Api\Model\AuthModel::validAuth(), called in /weixin/webdata/sign-f2f/Application/Api/Controller/AuthController.class.php on line 28 and defined /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 8 行.
+NOTIC: [8] Undefined variable: appid /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 11 行.
+SQL: SELECT * FROM `auth` WHERE `appid` = null LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: random /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 15 行.
+NOTIC: [8] Undefined variable: str /weixin/webdata/sign-f2f/Application/Api/Model/AuthModel.class.php 第 15 行.
+SQL: SELECT * FROM `ini`  [ RunTime:0.0001s ]
+

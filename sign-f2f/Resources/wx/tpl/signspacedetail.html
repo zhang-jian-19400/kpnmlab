@@ -1,0 +1,131 @@
+<style type="text/css">
+table.gridtable {
+        font-family: verdana,arial,sans-serif;
+        font-size:11px;
+        color:#333333;
+        border-width: 1px;
+        border-color: #666666;
+        border-collapse: collapse;
+}
+table.gridtable th {
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #666666;
+        background-color: #dedede;
+}
+table.gridtable td {
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #666666;
+        background-color: #ffffff;
+}
+</style>
+
+<div class="main navbar">
+  <a class="center">{{spacename}}</a>
+  <a class="left" href="javascript:history.go(-1)">
+    <i class="angle left icon"></i> 返回
+  </a>
+</div>
+<div class="ui container">
+  <div ng-include="'loading.html'" ng-show="!data.length && loading"></div>
+  <div class="ui warning message" ng-show="!data.length  && !loading && error">
+    <div ng-bind="error"></div>
+  </div>
+  <div>
+    <div class="ui positive message">
+    	{{title}}
+	<a style="margin-left:20px;" class="" href="http://wechat.hnust.cn/sign-f2f/wx/commonApi/downloadSpaceSignList?spaceid={{spaceid}}&spacename={{spacename}}"><i class="large green download icon"></i></a>
+
+        <a style="margin-left:30px;" class="" href="" ng-click="sendEmail()"><i class="large green mail outline icon"></i></a>
+        <a style="" ng-click='showsign()'> <i style="float:right;margin-top:2px"  class="large green list icon" ></i></a>
+    </div>
+    <table class="ui four column green striped center aligned unstackable attached table">
+      <thead>
+        <tr>
+      	  <th style="width:40%" ng-click="sortbynum()">学号/工号<i class="sort numeric ascending icon"></i></th>
+          <th style="width:20%">姓名</th>
+          <th style="width:40%" ng-click="sortbydepartment()">单位<i class="sort alphabet ascending icon"></i></th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="item in data" style="background-color:white">
+          <td ng-bind="item.num"></td>
+	  <td ng-bind="item.username"></td>
+	  <td ng-bind="item.title"></td>
+        </tr>
+        <tr ng-click="getSpaceList(true)">
+          <td colspan="4" ng-if="loading">
+            <i class="asterisk loading icon"></i> 正在努力请求数据...
+          </td>
+          <td colspan="4" ng-if="!loading" ng-bind="error || '点击加载更多...'"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div id="smail" class="ui fullscreen modal">
+    <i class="close icon"></i>
+    <div class="header">
+      发送至邮箱
+    </div>
+
+    <div class="content">
+      <div class="ui form">
+
+        <div class="field">
+          <div class="ui mini fluid icon input">
+            <input type="text" name="mail" placeholder="邮箱地址..." value="{{myemail}}"  style="font-size:13px">
+            <i class="mail icon"></i>
+          </div>
+        </div>
+
+        <div class="field" style="margin-top:-15px">
+          <label>留言</label>
+          <textarea name="leftword" style="height:20px" placeholder="说点什么吧..."></textarea>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="actions">
+      <div class="ui button" ng-click="clearEmailInfo()">清空</div>
+      <div class="ui green button" ng-click="startSendEmail()">发送</div>
+    </div>
+
+</div>
+
+
+
+<div id="showsigns" class="ui fullscreen modal">
+    <i class="close icon" style="margin-top:-6px"></i>
+    <div class="header" style="font-size:14px">
+      关联的所有签到<span ng-if="spacecount!=0">，共{{spacecount}}次：</span>
+    </div>
+
+    <div class="content" style="">
+        <div class="field" style="">
+           <table class="gridtable" style="width:100%;text-align:center">
+<tr>
+        <th>签到名称</th><th>时间</th>
+</tr>
+<tr ng-repeat="sign in signs">
+	<td>{{sign.signname}}</td> <td>{{sign.signdate}}</td>
+</tr>
+<tr ng-if="spacecount == 0">
+    <td colspan='2'>暂无关联的签到</td>
+</tr>
+
+</table>
+
+         </div>
+        </div>
+
+
+    </div>
+
+</div>

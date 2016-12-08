@@ -1,0 +1,161 @@
+<style type="text/css">
+table.gridtable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table.gridtable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table.gridtable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+</style>
+<div class="main navbar">
+  <a class="center">签到空间管理</a>
+  <a class="left" href="javascript:history.go(-1)">
+    <i class="angle left icon"></i> 返回
+  </a>
+</div>
+<div class="ui container">
+  <div ng-include="'loading.html'" ng-show="!data.length && loading"></div>
+  <div class="ui warning message" ng-show="!data.length  && !loading && error">
+    <div ng-bind="error"></div>
+  </div>
+  <div>
+    <div class="ui positive message">
+    	{{title}}
+        <button style="padding:6px 8px;margin-top:-4px" class="ui right floated green button" ng-click='createSpace();'><i class="plus icon"></i>新建</button>	
+    
+    </div>
+    <table class="ui four column green striped center aligned unstackable attached table">
+      <thead>
+        <tr>
+	  <th style="width:40%">空间名称</th>
+          <th style="width:20%">总人数</th>
+          <th style="width:40%">详情</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="item in data">
+          <td ng-bind="item.spacename"></td>
+	  <td ng-bind="item.usercount"></td>
+          <td>
+	  	<a class="mini ui green button"   ng-href="#/signspacedetail?spaceid={{item.spaceid}}&spacename={{item.spacename}}">
+  			>>
+		</a>
+	  </td>
+        </tr>
+        <tr ng-click="getSpaceList(true)">
+          <td colspan="4" ng-if="loading">
+            <i class="asterisk loading icon"></i> 正在努力请求数据...
+          </td>
+          <td colspan="4" ng-if="!loading" ng-bind="error || '点击加载更多...'"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+<div id="creatspace" class="ui fullscreen modal">
+    <i class="close icon"></i>
+    <div class="header">
+      新建签到空间
+    </div>
+
+    <div class="content" style="">
+      <form class="ui form">
+        	<div ng-include="'loading.html'" ng-show="showbar"  style="margin-top:-20px;"></div> 
+	 <div class="field">
+		<div class="ui selection dropdown">
+ 		 <div class="default text">请选择新建或是覆盖已有空间</div>
+		 <!--<div class="default"><i class="blue undo icon"></i>覆盖已有空间</div>-->
+ 		 <i class="dropdown icon"></i>
+ 		 <div class="menu">
+     			 <div class="item" data-value="new"><i class="green add user icon"></i>新建空间</div>
+			 <div class="divider"></div>
+			 <div class="header"><i class="brown list layout icon"></i>已有签到空间列表</div>
+    			 <div class="item" data-value="{{item.spaceid}}" ng-repeat="item in data">{{item.spacename}}</div>
+			<div class="item" data-value="nospace" ng-repeat="spacecount ==0">暂无签到空间</div>
+ 		 </div>
+ </div>
+	</div>
+
+               
+        <div class="field">
+ 	   <label>空间名称</label>
+           <div class="ui mini fluid icon input">
+             <input ng-model="spacename" type="text" ng-disabled="sapcenamedisable" value="spacename" name="spacename" placeholder="请输入合适的名称..." style="font-size:13px">
+             <i class="write icon"></i>
+           </div>
+        </div>
+        
+
+
+        <div class="field" style="">
+          <label>正确格式的Excel文件<i style="margin-left:12px;margin-top:-6px" class="large blue help circle icon" ng-click='showhelp()'></i></label>
+          <div class="ui mini fluid icon input" style="margin-bottom:0px">
+            <input type="file" nv-file-select='' uploader='uploader' name="spacefile" ng-click="clearQueue();"  style="font-size:13px">
+            <i class="file excel outline icon"></i>
+          </div>
+        </div>
+    </div>     
+
+    <div class="actions" style="">
+      <div class="ui button" ng-click="clearSpaceInfo()">清空</div>
+      <div class="ui green button" ng-click="uploader.uploadItem(0)" ng-disabled="uploaddisable">上传</div>
+    </div>
+
+    </form>
+
+</div>
+
+
+<div id="showhelp" class="ui fullscreen modal">
+    <i class="close icon" style="margin-top:-6px"></i>
+    <div class="header" style="font-size:14px">
+      上传文件格式模板(.xsl或.xslx格式)
+    </div>
+
+    <div class="content" style="">   
+	<div class="field" style="">
+           <label>Excel表格示例:</label>
+           <table class="gridtable" style="width:100%;text-align:center">
+<tr>
+	<th>学号/工号</th><th>姓名</th><th>单位</th>
+</tr>
+<tr>
+	<td>111111111</td><td>张三</td><td>计算机学院</td>
+</tr>
+<tr>
+	<td>2222222</td><td>王五</td><td>外国语学院</td>
+</tr>
+<tr>     
+        <td>14010502002</td><td>小石头</td><td>马克思学院</td>
+</tr>
+<tr>     
+        <td>...</td><td>...</td><td>...</td>
+</tr>
+
+</table>
+	    
+	 </div>
+        </div>
+
+        
+    </div>
+
+</div>

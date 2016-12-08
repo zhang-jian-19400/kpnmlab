@@ -1,0 +1,48 @@
+<div class="main navbar">
+  <a class="center">教学班管理</a>
+  <a class="left" href="#/home">
+    <i class="angle left icon"></i> 返回
+  </a>
+</div>
+<div class="ui class container">
+  <div ng-include="'loading.html'" ng-show="loading"></div>
+  <div class="ui warning message" ng-show="!loading && error">
+    <div class="header" ng-bind="error"></div>
+  </div>
+  <div class="animate" ng-if="!loading && !error">
+   <form class="ui form">
+      <div class="field">
+        <input type="text" placeholder="输入学号、姓名、班级等进行筛选" ng-model="class.key" ng-change="class.action(class.key, 1)">
+      </div>
+    </form>
+    <table class="ui three column green striped center aligned unstackable table" ng-show="class.result">
+      <thead>
+        <tr>
+          <th class="four wide">
+            <span class="pointer" ng-click="class.action(class.key, 1, 'num', false)">
+            学号 <i class="sort icon"></i>
+            </span>
+          </th>
+          <th class="three wide">
+            <span class="pointer" ng-click="class.action(class.key, 1, 'name', false)">
+            姓名 <i class="sort icon"></i>
+            </span>
+          </th>
+          <th class="seven wide">
+            <span class="pointer" ng-click="class.action(class.key, 1, 'total_valid', false)">
+            次数 <i class="sort icon"></i> <i class="help circle icon" data-content="次数为【有效次数/总次数】，为保证每周都有训练，当某周训练次数符合要求时，即使该周还在训练，其有效次数也不会增加"></i>
+            </span>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="item in class.result">
+          <td ng-bind="item.num"></td>
+          <td ng-bind="item.name"></td>
+          <td ng-bind="item.total + '/' + item.total_valid"></td>
+        </tr>
+      </tbody>
+    </table>
+    <paging class="paging" page="class.page" page-size="class.per" total="class.total" paging-action="class.action(class.key, page)"></paging>
+  </div>
+</div>

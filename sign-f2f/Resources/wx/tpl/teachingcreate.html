@@ -1,0 +1,138 @@
+<script type="text/javascript">
+$(document).ready(function(){
+$('.ui.radio.checkbox').checkbox();
+$('.ui.toggle.checkbox').checkbox();
+});
+</script>
+<div class="main navbar">
+  <a class="center">发起答题</a>
+  <a class="left" href="javascript:history.go(-1)">
+    <i class="angle left icon"></i> 返回
+  </a>
+  <a class="right" href="#/home">
+     主页<i class="angle right icon"></i>
+    </a>
+</div>
+
+<div class="ui container">
+  
+  <table id='infotable' class="ui three column teal striped unstackable attached table">
+    <thead>
+      <tr>
+        <th colspan="3" class="sixteen wide">
+          <span class="ui lightgray label" style="float:left"><i class="setting icon"></i>基本信息</span>
+          <div class="ui toggle checkbox" style="float:right;margin-top:3px;" ng-click="changeAnwserStatus()">
+ 	    <input type="checkbox" ng-disabled="hasExpire" name="public"/>
+ 	    <label style="color:gray">{{status}}</label>
+	  </div>
+         
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>答题计时</td>
+        <td colsapn=2>{{secondstr}}</td>
+      </tr>
+      <tr style="border:1px solid red">
+	<td class="four wide">题号</td>
+        <td class="five wide">
+		 <span ng-show="anwser">{{questionnum}}</span>
+
+
+                     <input id="questionnum" ng-show='inputshow'  value='{{questionnum}}' type="text" placeholder="请输入..." style="border:1px solid lightgray;width:100%" >
+	</td>
+	<td class="right aligned">
+                        <!--<i class="big teal write square icon"></i>-->
+                       <div class="mini circular ui icon button" ng-show="editshow"  ng-click="editAnwser()">
+                            <i class="large write icon"></i>
+                       </div>
+                       <div class="mini ui circular linkedin icon button" ng-show="save"  ng-click="saveAnwser()">
+                            <i class="large save icon"></i>
+                        </div>
+
+                   </td>
+      </tr>
+       <tr >
+        <td class="four wide">备注</td>
+        <td>
+		 <span ng-show="anwser">{{notes}}</span>
+
+
+                     <input id="notes" ng-show='inputshow'  value='{{notes}}' type="text" placeholder="请输入..." style="border:1px solid lightgray;width:100%" >
+	</td><td></td>
+      </tr>
+      <tr>
+                  <td class="four wide">答案</td>
+		  <td class="five wide">
+		    <!-- <span ng-show="signnameshow" >{{signname}}</span>-->
+
+		     <span ng-show="anwser">{{anwsers}}</span>
+
+
+                     <input id="anwsers" ng-show='inputshow'  value='{{anwsers}}' type="text" placeholder="请输入..." style="border:1px solid lightgray;width:100%" >
+		  </td>
+		   
+                  <td class="right aligned">
+                <div class="mini ui circular linkedin icon button"  ng-click="showstatistic();">
+                            <i class="large bar chart icon"></i>
+                        </div>
+        </td>
+
+		   
+      </tr>
+      
+
+    </tbody>
+
+
+  </table>
+
+
+
+
+<!--<div ng-include="'loading.html'" ng-show="!data.length && loading"></div> --> 
+  <div>
+    <div class="ui positive message" style="margin-top:14px">
+	{{title}}
+	<i style="float:right" ng-show="slideup" class="large angle up icon" ng-click='hideshow("up")'></i>
+        <i style="float:right" ng-show="slidedown"  class="large angle down icon" ng-click='hideshow("down")'></i>
+    </div>
+
+    <table class="ui three column green striped center aligned unstackable attached table">
+      <thead>
+        <tr>
+          <th class="five wide">姓名</th>
+          <th class="four wide">答案<i class="sort alphabet ascending icon"></i></th>
+          <th class="six wide" ng-click="sortbytime()">答题用时<i class="sort numeric descending icon"></i></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="item in data">
+          <td ng-bind="item.name"></td>
+          <td ng-bind="item.answer"></td>
+          <td><span>{{item.usedseconds}}</span></td>
+        </tr>
+        <tr ng-click="getList(listflag)">
+          <td colspan="3" ng-if="loading">
+            <i class="asterisk loading icon"></i> 正在努力请求数据...
+          </td>
+          <td colspan="3" ng-if="!loading" ng-bind="error || '点击加载更多...'"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+<div  class="ui fullscreen modal">
+   <i class="close icon"></i>
+    <div class="header">
+      答案：{{anwsers}}，人数：{{usercount}}
+    </div>
+   <div id="chart" style=""></div>
+</div>
+
+
+</div>
+
+

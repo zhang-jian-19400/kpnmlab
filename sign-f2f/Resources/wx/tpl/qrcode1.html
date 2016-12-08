@@ -1,0 +1,58 @@
+<div ng-show="!success">
+<div class="main navbar">
+  <a class="center">签到二维码</a>
+  <a class="left" href="javascript:history.go(-1)">
+    <i class="angle left icon"></i> 返回
+  </a>
+</div>
+<div class="ui container">
+  <div class="ui info message" ng-show="infomess">
+	<ol class="ui list">
+		<li>如果您能够正常签到，并且当前正在签到点，你可以辅助你的伙伴进行扫码签到</li>
+		<li>如果你还没签到，则可以请求已经签到成功的伙伴辅助你进行扫码签到</li>
+	</ol>  
+  </div>
+  
+  <div class="fluid large ui ui instagram button" ng-click="scanQRCode()" ng-show="notsign">
+  	<i class="icon qrcode"></i>
+  	请求伙伴辅助扫码签到
+  </div> 
+ 
+  <div class="ui segment" style="box-shadow:none" ng-show="havesign">
+    <h4 class="ui center aligned header">
+      辅助伙伴扫码签到
+      (<a href="javascript:void(0)" ng-click="refresh()">刷新</a>)
+    </h4>
+    <div class="ui floating message" style="text-align:center;color:teal" ng-show="showsn" ng-if="!error">
+	<h4>{{signname}}</h4>
+   </div>
+    <div class="ui warning message" ng-show="error" ng-bind="error"></div>
+    <div class="ui medium rounded qrcode image" ng-show="!error && oldQRCode"></div>
+    <div ng-include="'loading.html'" ng-show="!error && !oldQRCode"></div>
+  </div>
+  <dl class="helper" ng-show="helper">
+    <dt>怎么签到</dt>
+    <dd>先打开WIFI（只需要打开，连不连接都可以），然后点击上方签到按钮</dd>
+    <dt>定位失败怎么办</dt>
+    <dd>确保WIFI已经打开，且能够搜索到周围的WIFI信号，最好同时打开GPS</dd>
+    <dt>多次定位失败怎么办</dt>
+    <dd>如果多次签到失败，可以寻找附近的同学或者负责的老师，配合进行<a href="javascript:void(0)" ng-click="scanQRCode()">扫码签到</a>或者登记签到</dd>
+    <dt>有问题、意见、建议</dt>
+    <dd>如果在使用过程中有什么问题、意见或建议，并且在<a href="#/helper">使用帮助</a>中也无法找到想要的结果时可以通过<a href="http://wechat.hnust.cn/board/#?wechatName=hnust">留言反馈</a>联系我们，留言时请务必说明具体情>况（如签到问题请说明当前时间、地点、签到方式等等具体问题描述）</dd>
+    <a class="ui info fluid button" href="#/helper">查看更多帮助</a>
+  </dl>
+</div>
+</div>
+
+
+<div class="ui location success container" ng-show="success">
+  <div class="icon area">
+    <i class="checkmark icon"></i>
+  </div>
+  <div class="text area">
+    <h2>签到成功</h2>
+    <p style="color:#e64340" ng-bind="prompt"></p>
+  </div>
+  <a class="fluid ui green button" href="#/signlist?signid={{signid}}&signname={{dfilename}}">查看签到列表</a>
+  <button class="fluid ui button" ng-click="closeWindow()">关闭页面</button>
+</div>

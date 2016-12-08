@@ -1,0 +1,41 @@
+<div class="main navbar">
+  <a class="center">答题列表</a>
+  <a class="left" href="javascript:history.go(-1)">
+    <i class="angle left icon"></i> 返回
+  </a>
+</div>
+<div class="ui container">
+  <div ng-include="'loading.html'" ng-show="!data.length && loading"></div>
+  <div class="ui warning message" ng-show="!data.length  && !loading && error">
+    <div ng-bind="error"></div>
+  </div>
+  <div ng-show="data.length">
+    <div class="ui positive message" ng-bind="title" style="text-align:center"></div>
+    <table class="ui three column green striped center aligned unstackable attached table">
+      <thead>
+        <tr>
+          <th style="width:29%">题号</th>
+          <th style="width:35%">备注</th>
+          <th style="width:36%">详细</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="item in data">
+          <td ng-bind="item.questionnum"></td>
+	  <td ng-bind="item.notes"></td>
+          <td>
+	  	<a class="mini ui green button" ng-href="#/teachinganswer?&launchid={{item.launchid}}&tlaunchid={{item.tlaunchid}}">
+  			>>
+		</a>
+	  </td>
+        </tr>
+        <tr ng-click="getList(true)">
+          <td colspan="4" ng-if="loading">
+            <i class="asterisk loading icon"></i> 正在努力请求数据...
+          </td>
+          <td colspan="4" ng-if="!loading" ng-bind="error || '点击加载更多...'"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

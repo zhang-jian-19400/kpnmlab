@@ -1,0 +1,64 @@
+<div class="main navbar">
+  <a class="center">教学空间</a>
+  <a class="left" href="javascript:history.go(-1)">
+    <i class="angle left icon"></i>返回
+  </a>
+</div>
+<div class="ui container">
+  <div class="ui info message">
+	<ol class="ui list">
+                <li>目前所有题型均为选择题</li>
+		<li>发起签到后，即可以在指定空间中创建答题</li>
+		<li>参与签到后，即可选择签到空间参与答题</li>
+                <li>查看答题记录 或 查看发题记录</li>
+	</ol>  
+  </div>
+  <div ng-include="'loading.html'" ng-show="loading"></div>
+
+  <div class="fluid large ui buttons" style="margin-top:5px" ng-show="!loading">
+        
+        <a id="answerb" ng-href="{{dhref}}" class="ui positive button" ng-click="anwser();">
+		<i class="icon write"></i>
+		答题
+	</a>
+        <div class="or" data-text="or"></div>
+        
+        <a ng-href="{{fhref}}" class="ui blue button" ng-click="create();">
+		<i class="icon plus"></i>
+        	发题
+	</a>
+  </div>
+
+  
+  <div class="fluid large ui buttons" style="margin-top:20px" ng-show="!loading"  ng-click="">
+        <a class="ui button" ng-href="#/answerhistory"><i class="icon history"></i>答题记录</a>
+        <div class="or" data-text="or"></div>
+        <a class="ui button" ng-href="#/distributehistory"><i class="icon history"></i>发题记录</a>
+  </div>
+</div>
+
+
+<div id="selectspace" class="ui fullscreen modal">
+    <i class="close icon" style="margin-top:-6px"></i>
+    <div class="header" style="font-size:14px">
+      请选择进入的答题空间
+    </div>
+
+    <div class="content" style="">   
+	<div class="field" style="">
+           <table class="gridtable" style="width:100%;text-align:center">
+<tr ng-repeat="item in signlist">
+        <td><div class="fluid ui button" style="margin-top:4px" tabindex="0" ng-click="selectone(item.id)">{{item.signname}}</div></td>
+</tr>
+
+</table>
+	    
+	 </div>
+        </div>
+
+        
+    </div>
+
+</div>
+
+

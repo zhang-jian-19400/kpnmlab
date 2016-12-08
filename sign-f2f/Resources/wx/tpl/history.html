@@ -1,0 +1,45 @@
+<div class="main navbar">
+  <a class="center">签到历史</a>
+  <a class="left" href="#/home">
+    <i class="angle left icon"></i> 返回
+  </a>
+</div>
+<div class="ui container" style="margin: 15px auto">
+  <div ng-include="'loading.html'" ng-show="loading"></div>
+  <div class="ui warning message" ng-show="!loading && error">
+    <div class="header" ng-bind="error"></div>
+  </div>
+  <div ng-show="!loading && !error">
+    <div class="ui success message">
+      提示：本学期需在教学周13至18周期间完成共计12次有效签到。
+    </div>
+    <div class="ui segment" style="box-shadow: none;">
+      <h4 class="ui green header">签到统计</h4>
+      <div class="ui middle aligned divided relaxed list">
+        <div class="item">
+          <div class="right floated content">
+            <div class="value" ng-bind="sum(data.week_am, data.week_pm)"></div>
+          </div>
+          <div class="content">本周签到统计</div>
+        </div>
+        <div class="item">
+          <div class="right floated content">
+            <div class="value" ng-bind="data.term_total"></div>
+          </div>
+          <div class="content">本学期签到统计</div>
+        </div>
+      </div>
+    </div>
+    <div class="ui segment" style="box-shadow: none;" ng-if="data.logs">
+      <h4 class="ui green header">最近签到记录</h4>
+      <div class="ui middle aligned divided relaxed list">
+        <div class="item" ng-repeat="item in data.logs">
+          <div class="right floated content">
+            <div class="value" ng-bind="item.time | cut:5:16"></div>
+          </div>
+          <div class="content" ng-bind="item.part"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

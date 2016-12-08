@@ -1,0 +1,66 @@
+<div class="main navbar">
+  <a class="center">开始答题</a>
+  <a class="left" href="javascript:history.go(-1)">
+    <i class="angle left icon"></i>返回
+  </a>
+</div>
+<div class="ui container">
+<!--
+  <div class="ui info message">
+	<ol class="ui list">
+                <li>目前所有题型均为选择题</li>
+		<li>示例：单选题 C；多选题 ABD</li>
+		<li>参与答题后可查看答题统计信息</li>
+	</ol>  
+  </div>-->
+  <div ng-include="'loading.html'" ng-show="loading"></div>
+   
+  <div class="ui container" ng-show="!showanswer">
+	<table id='infotable' class="ui three column teal striped unstackable attached table">
+ 		<tr>
+			<td>你的答案</td><td colspan='2'>{{answer}}</td>
+			
+     		</tr>
+                <tr>
+                        <td>答题用时</td><td>{{secondstr}}</td>
+                        <td>
+				<div style="float:right"  class="mini ui circular linkedin icon button" ng-click="showstatistic();">
+                            <i class="large bar chart icon"></i>
+			</td>
+                </tr>
+
+        </table>
+
+  </div>
+  <div class="inputcode" ng-show="!loading && showanswer">
+        <p class="ui ignored info attached message" style="margin:0px auto; padding:8px;">
+          <span ng-bind="informtext||'请按要求填写答案^_^^'"></span>
+        </p>
+	
+        <div class="ui input" style="margin-top:-16px">
+          <span>{{secondstr}}</span>
+          <input  style="text-align:center;margin-top:10px;font-size:20px;letter-spacing:3px;padding:8px" ng-disabled="isText"  placeholder="请填写答案" ng-model="inanswer"/>
+        </div>
+	<button class="ui center huge green basic button" ng-disabled="submita" ng-click="submitanswer();">
+             <span>提交答案</span>
+        </button>
+  </div>
+
+  <div class="ui info message" ng-show="showanswer">
+        <ol class="ui list">
+                <li>目前所有题型均为选择题</li>
+                <li>示例：单选题 C；多选题 ABD</li>
+                <li>参与答题后可查看答题统计信息</li>
+        </ol>
+  </div>
+  
+
+</div>
+
+<div  class="ui fullscreen modal">
+   <i class="close icon"></i>
+    <div class="header">
+      参与答题人数：{{usercount}}
+    </div>
+   <div id="chart" style=""></div>
+</div>

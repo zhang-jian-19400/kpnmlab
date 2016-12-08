@@ -1,0 +1,33 @@
+<div class="main navbar">
+  <a class="center">签到二维码</a>
+  <a class="left" href="#/home">
+    <i class="angle left icon"></i> 返回
+  </a>
+</div>
+<div class="ui container">
+  <div class="ui segment" style="box-shadow:none">
+    <h4 class="ui center aligned header">
+      请扫码签到
+      (<a href="javascript:void(0)" ng-click="refresh()">刷新</a>)
+    </h4>
+    <div class="ui warning message" ng-show="error" ng-bind="error"></div>
+    <div class="ui medium rounded qrcode image" ng-show="!error && oldQRCode"></div>
+    <div ng-include="'loading.html'" ng-show="!error && !oldQRCode"></div>
+  </div>
+  <form class="ui segment form" style="box-shadow:none">
+    <div class="ui info message">
+      <div class="content">
+        如学生未携带手机或定位扫码均失败的情况下可以尝试手动添加
+      </div>
+    </div>
+    <div class="field">
+      <label>学号</label>
+      <input type="text" name="num" placeholder="请输入学号" ng-model="num"/>
+    </div>
+    <div class="field">
+      <label>姓名</label>
+      <input type="text" name="name" placeholder="姓名只起验证作用，可为空" ng-model="name"/>
+    </div>
+    <button class="ui teal button" ng-class="{loading:loading}" type="submit">添加</button>
+  </form>
+</div>

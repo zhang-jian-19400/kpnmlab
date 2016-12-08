@@ -1,0 +1,226 @@
+<script type="text/javascript">
+$(document).ready(function(){
+$('.ui.radio.checkbox').checkbox();
+$('.ui.toggle.checkbox').checkbox();
+});
+</script>
+
+<div class="main navbar">
+  <a class="center">签到列表</a>
+  <a class="left" href="javascript:history.go(-1)">
+    <i class="angle left icon"></i> 返回
+  </a>
+  <a class="right" href="#/home">
+     主页<i class="angle right icon"></i>
+    </a>
+</div>
+<div class="ui container">
+  
+  <table id='infotable' class="ui three column teal striped unstackable attached table">
+ 	 <thead>
+   		 <tr>
+     	           <th colspan="3" class="sixteen wide">	
+			<span class="ui lightgray label" style="float:left"><i class="setting icon"></i>基本配置</span>
+			<div class="ui toggle checkbox" style="float:right;margin-top:3px;" ng-click="changeSignStatus()">
+ 			 <input type="checkbox" name="public" ng-checked="!signstatus" ng-disabled="haveExpire" ng-show="isLaunch"/>
+ 			 <label style="color:gray" ng-show="isLaunch">{{statusmsg}}</label>
+			</div>
+<!--
+			<a style="float:right" class="mini ui teal button" href="#/qrcode1?signid={{signid}}&signname={{signname}}" ng-disabled="haveExpire" ng-show="isHelp&&!haveExpire"><i class="heartbeat icon"></i>辅助伙伴签到</a>-->
+		   </th>
+   		 </tr>
+ 	 </thead>
+	 <tbody>
+   		 <tr>
+     		   <td class="four wide">签到码</td>
+     		   <td>
+			 {{signcode}}
+		   </td>
+		   <td class="right aligned">
+			 <a style="margin-left:20px" class="tiny circular ui icon teal button" href="#/qrcode1?signid={{signid}}&signname={{signname}}" ng-disabled="haveExpire" ng-show="!haveExpire"><i class="large qrcode icon"></i></a>
+
+		   </td>
+                   
+   		 </tr>
+                 <tr style="background-color:white">
+                   <td>日期</td>
+                   <td colspan="2">{{signdate}}</td>
+<!--
+	           <td class="right aligned">
+                         <a style="margin-left:20px;color:teal" class="" href="http://wechat.hnust.cn/sign-f2f/wx/commonApi/downloadSignList?signid={{signid}}&signcode={{signcode}}" ng-disabled="!haveExpire" ng-show="haveExpire && isLaunch"><i class="large download icon"></i></a>
+
+                   </td>
+-->
+
+
+                 </tr>
+		<tr>
+                  <td class="four wide">名称</td>
+		  <td class="eight wide">
+		    <!-- <span ng-show="signnameshow" >{{signname}}</span>-->
+
+		     <input  ng-show='signnameshow'  value='{{signname}}' type="text" style="border:1px solid white;width:100%;background:white" disabled="disabled">
+
+
+                     <input id="newSignname" ng-show='editshow'  value='{{signname}}' type="text" placeholder="请输入..." style="border:1px solid lightgray;width:100%" >
+		  </td>
+                   <td class="right aligned" ng-show="isLaunch">
+		        <!--<i class="big teal write square icon"></i>-->
+		       <div class="mini circular ui icon button"  ng-show="editicon" ng-click="editSignname()">
+  			    <i class="large write icon"></i>
+		       </div>
+			<div class="mini ui circular linkedin icon button" ng-show="saveicon" ng-click="saveSignname()">
+                            <i class="large save icon"></i>
+                        </div>
+		   </td>
+		   <td ng-show="!isLaunch"></td>
+                </tr>
+		<tr ng-show="isLaunch" style="background-color:white">
+			<td class="four wide">签到空间</td>
+                        <td class="eight wide">
+				<span ng-if="spacecount==0">暂无关联</span>
+                                <span ng-if="spacecount>0">已关联{{spacecount}}个空间</span>
+			</td>
+                        <td class="right aligned" ng-show="isLaunch">
+				<div class="mini circular ui icon button"  ng-click="editSignSpace()">
+                           		 <i class="large add user icon"></i>
+                       		</div>
+			</td>
+		</tr>
+		<tr ng-show="isLaunch">
+                   <td class="four wide">用户可见</td>
+                   <td colspan="2">
+		<div class="ui radio checkbox" ng-click="changeSeenable('true')">
+       		 	<input type="radio" name="cansee" value="true"  ng-checked="cs" ng-disabled="haveExpire">
+       		 	<label>可见</label>
+     		 </div>
+		<div class="ui radio checkbox" style="margin-left:1em" ng-click="changeSeenable('false')">
+       		 	<input type="radio" name="cansee" value="false"  ng-checked="ncs" ng-disabled="haveExpire">
+       		 	<label>不可见</label>
+     		</div>
+		   </td>
+                </tr>
+	 </tbody>
+  </table>  
+
+  <div ng-include="'loading.html'" ng-show="!data.length && loading"></div>  
+
+  <div class="ui warning message" ng-show="!isSee && !isLaunch  && !loading">
+    <div ng-bind="errorlist"></div>
+  </div>
+  <div ng-show="data.length && (isSee||isLaunch)">
+    <div class="ui positive message" style="margin-top:14px">
+	{{title}}
+	
+	<a style="margin-left:20px;" class="" href="http://wechat.hnust.cn/sign-f2f/wx/commonApi/downloadSignList?signid={{signid}}&signcode={{signcode}}" ng-show="isLaunch"><i class="large green download icon"></i></a>
+	
+	<a style="margin-left:30px;" class="" href="" ng-show="isLaunch" ng-click="sendEmail()"><i class="large green mail outline icon"></i></a>
+
+        <i style="float:right" ng-show="slideup" class="large angle up icon" ng-click='hideshow("up")'></i>
+        <i style="float:right" ng-show="slidedown"  class="large angle down icon" ng-click='hideshow("down")'></i>
+    </div>
+
+    <table class="ui three column green striped center aligned unstackable attached table">
+      <thead>
+        <tr>
+          <th class="six wide" ng-click="sortbynum()">学号/工号<i class="sort numeric ascending icon"></i></th>
+          <th class="five wide">姓名</th>
+          <th class="five wide" ng-click="sortbytime()">时间<i class="sort numeric descending icon"></i></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="item in data" style="background-color:{{item.isSelf?'rgb(225,236,244)':(item.isInSpace?'rgba(77,200,99,0.05)':'white')}}">
+          <td ng-bind="item.num"></td>
+          <td ng-bind="item.username"></td>
+          <td><span>{{item.time}}</span></td>
+        </tr>
+        <tr ng-click="getList(true)">
+          <td colspan="3" ng-if="loading">
+            <i class="asterisk loading icon"></i> 正在努力请求数据...
+          </td>
+          <td colspan="3" ng-if="!loading" ng-bind="error || '点击加载更多...'"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+<div id="smail" class="ui fullscreen modal">
+    <i class="close icon"></i>
+    <div class="header">
+      发送至邮箱
+    </div>
+
+    <div class="content">
+      <div class="ui form">
+
+        <div class="field">
+          <div class="ui mini fluid icon input">
+            <input type="text" name="mail" placeholder="邮箱地址..." value="{{myemail}}"  style="font-size:13px">
+            <i class="mail icon"></i>
+          </div>
+        </div>
+	
+        <div class="field" style="margin-top:-15px">
+          <label>留言</label>
+          <textarea name="leftword" style="height:20px" placeholder="说点什么吧..."></textarea>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="actions">
+      <div class="ui button" ng-click="clearEmailInfo()">清空</div>
+      <div class="ui green button" ng-click="startSendEmail()">发送</div>
+    </div>
+
+</div>
+
+<div id="espace" class="ui fullscreen modal">
+    <i class="close icon"></i>
+    <div class="header">
+      签到空间配置
+    </div>
+
+    <div class="content" style="">
+      <form class="ui form">
+        
+ 	<div class="field">
+      
+
+
+
+	<div class="ui multiple dropdown">
+  <input type="hidden" name="filters">
+  <i class="filter icon"></i>
+  <span class="text">请选择签到空间</span>
+  <div class="menu">
+    <div class="divider"></div>
+    <div class="header"><i class="tags icon"></i> 您的签到空间列表 </div>
+    <div class="scrolling menu">
+      <div class="item" data-value="{{item.spaceid}}" ng-repeat="item in spacelist">
+        <div class="ui blue empty circular label"></div>
+        {{item.spacename}} 
+     </div>
+     <div class="item" data-value="nospace" ng-if="scount == 0">
+        <div class="ui blue empty circular label"></div>
+        暂无签到空间
+     </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+	
+	</div>
+    </div>
+        <div class="actions" style="">
+           <div class="ui green button" ng-click="submitSpaceTable()" ng-disabled="uploaddisable">确定</div>
+        </div>
+      </form>
+    
+</div>

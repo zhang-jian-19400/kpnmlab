@@ -1,0 +1,19 @@
+<div class="main navbar">
+  <a class="center">面对面签到</a>
+</div>
+<div ng-include="'loading.html'" ng-show="loading"></div>
+<div class="ui warning container message" ng-show="!loading && error">
+  <div class="header" ng-bind="error"></div>
+</div>
+<div class="home" ng-show="!loading && !error">
+  <div class="ui padded grid">
+    <a class="column" ng-href="{{item.url}}" ng-repeat="item in data.common">
+      <i class="green icon" ng-class="[item.icon]"></i>
+      <p ng-bind="item.name"></p>
+    </a>
+    <a class="column" ng-href="{{item.url}}" ng-repeat="item in data.desks">
+      <i class="green icon" ng-class="[item.icon? item.icon:'location arrow']"></i>
+      <p ng-bind="item.name"></p>
+    </a>
+  </div>
+</div>

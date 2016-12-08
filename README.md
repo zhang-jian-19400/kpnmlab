@@ -1,7 +1,1 @@
-# kpnmlab#
-
-  Working for kpnmlab of hnust.
-  QaQ
-  
-  人生苦短，及时行乐  -.-
-  life is short, use Python.
+这个库用来放实验的东西
